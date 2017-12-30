@@ -11,10 +11,14 @@
     "ui": "^0.2.4"
   },
   "scripts": {
+    "deploy" : "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://GormanGit.github.io/ticTacReact"
+  "homepage": "https://GormanGit.github.io/ticTacReact",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }
